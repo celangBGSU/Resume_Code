@@ -27,13 +27,7 @@ async def on_message(message):
   if message.content.startswith('hi'):
     await message.channel.send("""Hiiiiiiiiiiiiiiii with a bunch of I's!""")  
 
-  if message.content.startswith('IP'):
-    await message.channel.send('Pulling IPs ... :smiling_imp:')
-    await message.channel.send('All IPs pulled.')
-    await message.channel.send('Pulling PORTs ... :smiling_imp:')
-    await message.channel.send('All ports pulled.')
-    await message.channel.send('INFORMATION HAS BEEN STORED... jk <3')
-
+  
 # when bot seeing key word, random response_message sent
   if any(word in message.content for word in key_words):
     await message.channel.send(random.choice(response_message))
