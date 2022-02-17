@@ -33,4 +33,4 @@ async def on_message(message):
     await message.channel.send(random.choice(response_message))
 
 # must store channel ID here.
-client.run('OTQyODQzMDQzNzk3Njc2MDYz.YgqZAg.O4AHx34B168O339u3LLncvDrfiM') 
+client.run('[XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX]') 
