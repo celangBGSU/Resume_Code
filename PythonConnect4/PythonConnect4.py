@@ -1,4 +1,8 @@
-
+# Source https://www.youtube.com/watch?v=XGf2GcyHPhc&t=9767s
+# Ownership: https://github.com/KeithGalli/Connect4-Python
+#
+#   Purpose: python syntax of matrices practice with numpy and pygame library
+#
 import numpy as np
 import pygame
 import sys
